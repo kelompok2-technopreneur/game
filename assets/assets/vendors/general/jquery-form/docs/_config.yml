@@ -1,21 +1,14 @@
-name: jQuery Form
-title: jQuery Form Plugin
-description: The jQuery Form Plugin allows you to easily and unobtrusively upgrade HTML forms to use AJAX
-theme: jekyll-theme-tactile
-url: https://jquery-form.github.io
-baseurl: /form
-permalink: pretty
-timezone: America/New_York
+title: My Awesome Site
+description: A description of your site
+baseurl: "" # subpath dari situs Anda, jika ada
+url: "https://kelompok2-technopreneur.github.io/game" # ganti dengan URL GitHub Pages Anda
+theme: jekyll-theme-primer
 
-repository: jquery-form/form
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
 
-# Dependencies
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
-
-exclude:
-  - .gitignore
+markdown: kramdown
